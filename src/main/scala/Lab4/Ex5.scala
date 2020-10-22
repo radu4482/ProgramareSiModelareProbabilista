@@ -1,6 +1,6 @@
 package Lab4 
 
-import com.cra.figaro.library.atomic.discrete
+import com.cra.figaro.library.atomic.discrete.FromRange
 import com.cra.figaro.library.compound._
 import com.cra.figaro.language._
 import com.cra.figaro.algorithm.sampling._

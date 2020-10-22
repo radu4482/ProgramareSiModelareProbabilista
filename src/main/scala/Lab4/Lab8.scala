@@ -4,8 +4,8 @@ import com.cra.figaro.library.compound._
 import com.cra.figaro.language._
 import com.cra.figaro.algorithm.sampling._
 import com.cra.figaro.algorithm.factored._
-import com.cra.figaro.library.atomic.discrete
-object Ex7{
+import com.cra.figaro.library.atomic.discrete.FromRange
+object Ex8{
     def main(args: Array[String]) {
         val numberOfSides1 = Select(0.2 -> 4, 0.2 -> 6, 0.2 -> 8, 0.2 -> 12, 0.2 -> 20)
         val roll1 = Chain(numberOfSides1, ((i: Int) => FromRange(1, i + 1)))
