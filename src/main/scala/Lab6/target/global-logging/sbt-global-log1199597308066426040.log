@@ -1,0 +1,50 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m[0J
+[0m[[0m[33mwarn[0m] [0m[0mNo sbt.version set in project/build.properties, base directory: C:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.4.0 (Oracle Corporation Java 1.8.0_241)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 654.0591ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 183.0383ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.2829ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6, returning: ()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 20.1007 ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(lab6) took 48.7299ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id lab6, base: C:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6, plugins: List(<none>))) took 92.3597ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6, returning: (lab6)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 110.8524ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 0.2409ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/C:/Users/Radu4482/Documents/GitHub/PMP-Test-Repository/src/main/scala/Lab6/, ...) took 299.2085ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 476.4857ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 5.484ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 57.3646ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 8.164ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 1053.7963ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 79.4658ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 1.4176ms[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mset current project to lab6 (in build file:/C:/Users/Radu4482/Documents/GitHub/PMP-Test-Repository/src/main/scala/Lab6/)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mHere are some highlights of this release:[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m  - Build server protocol (BSP) support[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m  - sbtn: a native thin client for sbt[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m  - VirtualFile + RemoteCache: caches build artifacts across different machines[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m  - ThisBuild / versionScheme to take the guessing out of eviction warning[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSee http://eed3si9n.com/sbt-1.4.0 for full release notes.[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mHide the banner for this release by running `skipBanner`.[0m[0J
+[0m[[0m[0minfo[0m] [0m[0msbt server started at local:sbt-server-6ba18b98c40c7f942158[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m[0J

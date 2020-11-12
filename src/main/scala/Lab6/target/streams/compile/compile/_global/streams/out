@@ -1,0 +1,124 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:3:8: not found: object __root__[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport __root__.com.cra.figaro.language.Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:4:8: not found: object __root__[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport __root__.com.cra.figaro.language.Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:5:8: not found: object __root__[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport __root__.com.cra.figaro.language.Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:6:8: not found: object __root__[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport __root__.com.cra.figaro.language.Flip[0m[0J
+[0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:7:8: not found: object __root__[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport __root__.com.cra.figaro.algorithm.sampling._[0m[0J
+[0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:11:14: not found: value Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		val test = Constant("Test")[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		           ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:13:19: not found: value Importance[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		val algorithm = Importance(1000, test)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		                ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:20:147: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0mdef tennis( probP1ServeWin: Double, probP1Winner: Double, probP1Error: Double, probP2ServeWin: Double, probP2Winner: Double, probP2Error: Double):Element[Boolean] ={[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                  ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:22:50: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0mdef rally(firstShot: Boolean, player1: Boolean): Element[Boolean] = {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:32:15: not found: value Flip[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val winner = Flip(pWinner)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:33:14: not found: value Flip[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val error = Flip(pError)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	            ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:35:2: not found: value If[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	If(winner, Constant(player1),[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:35:13: not found: value Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	If(winner, Constant(player1),[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	           ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:36:7: not found: value If[0m[0J
+[0m[[0m[31merror[0m] [0m[0m			   If(error,Constant(!player1),[0m[0J
+[0m[[0m[31merror[0m] [0m[0m			   ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:36:16: not found: value Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m			   If(error,Constant(!player1),[0m[0J
+[0m[[0m[31merror[0m] [0m[0m			            ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:41:79: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0m def game(p1Serves: Boolean, p1Points: Element[Int], p2Points: Element[Int]): Element[Boolean] = {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                                                              ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:41:40: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0m def game(p1Serves: Boolean, p1Points: Element[Int], p2Points: Element[Int]): Element[Boolean] = {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:41:64: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0m def game(p1Serves: Boolean, p1Points: Element[Int], p2Points: Element[Int]): Element[Boolean] = {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:54:2: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	Apply(p1WinsPoint, p1Points, [0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:59:2: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	Apply(p1WinsPoint, p2Points, [0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:64:2: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	Apply(newP1Points, newP2Points, [0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:69:2: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	Apply(newP2Points, newP1Points, [0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:74:2: not found: value If[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	If(gameOver, p1WinsGame, game(p1Serves, newP1Points, newP2Points))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:78:1: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0mElement[Boolean] = {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:77:37: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0mdef play(p1Serves: Boolean, p1Sets: Element[Int], p2Sets: Element[Int], p1Games: Element[Int], p2Games: Element[Int]): [0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:77:59: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0mdef play(p1Serves: Boolean, p1Sets: Element[Int], p2Sets: Element[Int], p1Games: Element[Int], p2Games: Element[Int]): [0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:77:82: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0mdef play(p1Serves: Boolean, p1Sets: Element[Int], p2Sets: Element[Int], p1Games: Element[Int], p2Games: Element[Int]): [0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:77:105: not found: type Element[0m[0J
+[0m[[0m[31merror[0m] [0m[0mdef play(p1Serves: Boolean, p1Sets: Element[Int], p2Sets: Element[Int], p1Games: Element[Int], p2Games: Element[Int]): [0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                                                                                        ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:79:34: not found: value Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val p1WinsGame = game(p1Serves, Constant(0), Constant(0))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                                ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:79:47: not found: value Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val p1WinsGame = game(p1Serves, Constant(0), Constant(0))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                                             ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:91:2: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	Apply(p1WinsGame, p1Games, p2Games,[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:98:2: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	Apply(p1WinsGame, p1Games, p2Games,[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:104:2: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	Apply(p1WinsGame, p1Games, p1Sets,[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:109:2: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	Apply(p1WinsGame, p2Games, p2Sets,[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:113:18: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val matchOver = Apply(newP1Sets, newP2Sets, [0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:116:2: not found: value If[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	If(matchOver, Apply(newP1Sets, (sets: Int) => sets >= 2),[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:116:16: not found: value Apply[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	If(matchOver, Apply(newP1Sets, (sets: Int) => sets >= 2),[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	              ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:122:13: not found: value Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	play(true, Constant(0), Constant(0), Constant(0), Constant(0))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	           ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:122:26: not found: value Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	play(true, Constant(0), Constant(0), Constant(0), Constant(0))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                        ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:122:39: not found: value Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	play(true, Constant(0), Constant(0), Constant(0), Constant(0))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                                     ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Radu4482\Documents\GitHub\PMP-Test-Repository\src\main\scala\Lab6\Ex1.scala:122:52: not found: value Constant[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	play(true, Constant(0), Constant(0), Constant(0), Constant(0))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                                                  ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m41 errors found[0m[0J
