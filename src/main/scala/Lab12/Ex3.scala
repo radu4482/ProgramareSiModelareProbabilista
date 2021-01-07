@@ -6,7 +6,7 @@ import com.cra.figaro.library.compound.{If}
 import com.cra.figaro.algorithm.factored.VariableElimination
 import com.cra.figaro.library.atomic.continuous.Normal
 import scalax.chart.api._
-object Ex1 {
+object Ex3 {
 	def main(args: Array[String]) {
 		val x0 = Apply(Normal(0.75, 0.3), (d: Double) => d.max(0).min(1))
         val y0 = Apply(Normal(0.4, 0.2), (d: Double) => d.max(0).min(1))
@@ -19,7 +19,8 @@ object Ex1 {
 		val series = new XYSeries("Importance sampling")		
 		val chart = XYLineChart(series)
 		chart.show()
-		for { i <- 1000 to 10000 by 1000 } {
+
+		for { i <- 10000 to 1000000 by 10000 } {
 			var totalSquaredError = 0.0
 			for { j <- 1 to 100 } {
 				val imp = Importance(i, y)
@@ -30,12 +31,14 @@ object Ex1 {
 			}
 			val rmse = math.sqrt(totalSquaredError / 100)
 			println(i + " samples: RMSE = " + rmse)
-			
-			series.add(i/1000,rmse)
+			series.add(i/10000,rmse)
 		}
 	}
 }
 
-/*Putem observa ca , doar cu 100 de rulari nu e indeajuns pentru a obtine
-un graf cat decat precis pentru estimarea erorilor dar putem remarca totusi
-faptul ca eroarea scade iar rata la care scade incetineste.*/
+/*Când rulez acest experiment, primesc o eroare de aproximativ 
+4 × 10-4 pentru eșantionarea importanței. Motivul pentru care 
+eșantionarea importanței este atât de precisă, în ciuda probabilității 
+reduse a dovezilor, se datorează faptului că este capabilă să „împingă 
+dovezile înapoi” prin program, pentru a se asigura că eșantionează 
+valori în concordanță cu dovezile.*/
